@@ -10,8 +10,8 @@ import os
 from pathlib import Path
 
 LINE = (
-    "Hey, you make my coils spin faster than a jammed snack, so feed me "
-    "your exact change and I will dispense my very best self for you."
+    "Hey, you make my coils spin faster than a jammed snack, so press B7, "
+    "feed me your exact change, and I will dispense my very best self for you."
 )
 
 assert 1 <= len(LINE) <= 200 and LINE.strip(), "line must be 1-200 chars, not only whitespace"
